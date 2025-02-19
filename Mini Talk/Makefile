@@ -26,7 +26,7 @@ $(printflib):
 	make -C printf
 
 clean:
-	rm -f *.o
+	server client server_bonus client_bonus
 	make -C printf clean
 
 fclean: clean
